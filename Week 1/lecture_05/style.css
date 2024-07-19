@@ -1,0 +1,25 @@
+/* Type of Selectors 
+1. Simple Selector
+2. Combinator Selector
+3. Pseduo-class Selector
+4. Pesduo-element Selector
+5. Attribute Selector
+*/
+
+/*universal selector*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+div + p{
+    background-color: yellow;
+}
+
+ /* Pseduo selector  */
+div ~ p:hover{
+    background-color: yellow;
+}
+
+a[target]{
+    color: orange;
+}
+
